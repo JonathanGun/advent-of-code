@@ -1,6 +1,6 @@
-# Advent of Code 2024
+# Advent of Code - 2024
 
-This is my attempt to learn clojure language. I will try to solve the problems using clojure and will try to incorporate unit tests.
+This is my attempt to learn [clojure](https://clojure.org/) language. I will try to solve the problems using clojure and will try to incorporate unit tests.
 
 The solution will roughly follow this structure:
 
