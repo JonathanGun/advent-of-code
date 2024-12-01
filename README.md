@@ -1,15 +1,3 @@
-This is my attempt to learn clojure language. I will try to solve the problems using clojure and will try to incorporate unit tests.
+# Advent of Code
 
-The solution will roughly follow this structure:
-
-```txt
-<day>
-  ├── input
-  |   ├── sample.in
-  │   └── star.in
-  ├── src
-  |   ├── main.clj (for getting the input)
-  │   └── calc.clj (for the solution)
-  └── test
-      └── main.clj (for testing the main.clj)
-```
+This repository contains my solutions to the [Advent of Code](https://adventofcode.com/) challenges.
