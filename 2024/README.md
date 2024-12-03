@@ -18,23 +18,27 @@ The solution will roughly follow this structure:
       └── main.clj (for testing the main.clj)
 ```
 
+## Other Language
+
+This is my attempt to solve using Googhe Sheets. The sheet can be found [here](https://docs.google.com/spreadsheets/d/1J0_s6Qru7S0bcDWFz4C_9dLVCnyoUltKFkDm2KEm9TA)
+
 ## Learnings
 
 ### Day 1
 
-* Installing clojure, setting up IDE, and familiarize with clojure REPL
-* Reading input from file
-* Separating into different files
-* Unit test in clojure
-* `map`, `reduce`, `apply`, `def`, `defn`, `let`
-* basic math, basic string manipulation
+- Installing clojure, setting up IDE, and familiarize with clojure REPL
+- Reading input from file
+- Separating into different files
+- Unit test in clojure
+- `map`, `reduce`, `apply`, `def`, `defn`, `let`
+- basic math, basic string manipulation
 
 ### Day 2
 
-* Reading 2D vector from file
-* Use `for` to iterate over the vector and do brute force
+- Reading 2D vector from file
+- Use `for` to iterate over the vector and do brute force
 
 ### Day 3
 
-* Regex operations `re-find`, `re-matcher`, `re-seq`
-* Using `loop` and `recur` for basic recursion
+- Regex operations `re-find`, `re-matcher`, `re-seq`
+- Using `loop` and `recur` for basic recursion
