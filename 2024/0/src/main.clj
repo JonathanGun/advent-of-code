@@ -1,14 +1,7 @@
 (ns main
-  (:require [calc])
-  (:require [clojure.string :as str]))
-
-
-;; (defn parse-file [file-path]
-;;   (-> file-path
-;;       slurp
-;;       (str/split #"\s+")
-;;       (->> (map read-string))))
+  (:require [calc]))
 
 (defn -main
   [& args]
-  (println "Hello, World!" args))
+  (calc/part-one (slurp (first args)))
+  (calc/part-two (slurp (first args))))
