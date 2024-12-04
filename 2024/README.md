@@ -42,3 +42,9 @@ This is my attempt to solve using Googhe Sheets. The sheet can be found [here](h
 
 - Regex operations `re-find`, `re-matcher`, `re-seq`
 - Using `loop` and `recur` for basic recursion
+
+### Day 4
+
+- `get-in` function to access 2D vector
+- `atom` to create mutable variable
+- `swap!` to change the value of atom
