@@ -2,10 +2,18 @@
   (:require [calc]
             [clojure.test :refer [deftest is run-tests testing]]))
 
-;; (deftest test-calculate-result
-;;   (testing "calculate-result"
-;;     (is (= 0 (calc/calculate-result [1 1 2 2])))
-;;     (is (= 2 (calc/calculate-result [1 2 3 4])))
-;;     (is (= 11 (calc/calculate-result [3 4 4 3 2 5 1 3 3 9 3 3])))))
+(def sample-part-one
+  "xmul(2,4)%&mul[3,7]!@^do_not_mul(5,5)+mul(32,64]then(mul(11,8)mul(8,5))")
+
+(def sample-part-two
+  "xmul(2,4)&mul[3,7]!^don't()_mul(5,5)+mul(32,64](mul(11,8)undo()?mul(8,5))")
+
+(deftest test-part-one
+  (testing "part-one"
+    (is (= 161 (calc/part-one sample-part-one)))))
+
+(deftest test-part-two
+  (testing "part-two"
+    (is (= 48 (calc/part-two sample-part-two)))))
 
 (run-tests)
