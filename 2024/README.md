@@ -20,7 +20,9 @@ The solution will roughly follow this structure:
 
 ## Other Language
 
-This is my attempt to solve using Googhe Sheets. The sheet can be found [here](https://docs.google.com/spreadsheets/d/1J0_s6Qru7S0bcDWFz4C_9dLVCnyoUltKFkDm2KEm9TA)
+This is my attempt to solve using Googhe Sheets. The sheet can be found in this list:
+* [Day 1 - Day 4](https://docs.google.com/spreadsheets/d/1J0_s6Qru7S0bcDWFz4C_9dLVCnyoUltKFkDm2KEm9TA)
+* [Day 5 - Day ?](https://docs.google.com/spreadsheets/d/1cUUujvuAzJt4X-iOSZlPNawLPMGgD1FNMVPLfEHIvBs)
 
 ## Learnings
 
@@ -48,3 +50,8 @@ This is my attempt to solve using Googhe Sheets. The sheet can be found [here](h
 - `get-in` function to access 2D vector
 - `atom` to create mutable variable
 - `swap!` to change the value of atom
+
+### Day 5
+
+- `sort` and `sort-by` function, using custom comparator
+- set operations like `clojure.set/intersection`, `clojure.set/difference`, `clojure.set/union`
