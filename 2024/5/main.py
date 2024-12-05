@@ -36,10 +36,17 @@ for i, instruction in enumerate(instructions):
         cnt += instruction[len(instruction) // 2]
         correct_ordered[i] = True
 print(cnt)
-
+# for i, v in enumerate(correct_ordered):
+#     if v:
+#         print(i+1, end=" ")
+# print()
 
 def get_rank(items):
+    # print(items)
     filtered_rules = {key: rules[key] & items for key in items}
+    # for k, v in sorted(filtered_rules.items()):
+    #     print(k, v, len(v))
+    # print()
     return sorted(filtered_rules, key=lambda x: len(filtered_rules[x]))
 
 
@@ -50,5 +57,5 @@ for i, instruction in enumerate(instructions):
         sort_rules = get_rank(set(instruction))
         instruction.sort(key=lambda x: sort_rules.index(x))
         cnt2 += instruction[len(instruction) // 2]
-        # print(instruction)
+        print(i+1, instruction, instruction[len(instruction) // 2])
 print(cnt2)

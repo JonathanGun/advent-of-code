@@ -9,7 +9,7 @@
         sorted-odd      (sort odd)
         sorted-even     (sort even)
         result      (reduce + (map abs (map - sorted-odd sorted-even)))]
-    result))
+    (do result)))
 
 (defn count-occurence [numbers]
   (reduce (fn [m n] (update m n (fnil inc 0))) {} numbers))
