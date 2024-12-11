@@ -1,0 +1,2 @@
+{:paths ["src" "../util"]
+ :deps {org.clojure/core.memoize {:mvn/version "1.0.236"}}}
