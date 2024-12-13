@@ -22,7 +22,8 @@ The solution will roughly follow this structure:
 
 This is my attempt to solve using Googhe Sheets. The sheet can be found in this list:
 * [Day 1 - Day 4](https://docs.google.com/spreadsheets/d/1J0_s6Qru7S0bcDWFz4C_9dLVCnyoUltKFkDm2KEm9TA)
-* [Day 5 - Day ?](https://docs.google.com/spreadsheets/d/1cUUujvuAzJt4X-iOSZlPNawLPMGgD1FNMVPLfEHIvBs)
+* [Day 5](https://docs.google.com/spreadsheets/d/1cUUujvuAzJt4X-iOSZlPNawLPMGgD1FNMVPLfEHIvBs)
+* [Day 13](https://docs.google.com/spreadsheets/d/1E6joo-I5f8YErVa0WhSB6Aaiy5w3jmh9HwfdeNORaoQ)
 
 ## Learnings
 
